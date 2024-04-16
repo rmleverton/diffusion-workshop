@@ -5,6 +5,19 @@ body, html {
 }
 
 
+#generation-title {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px; /* Adjust margin as needed */
+}
+
+#container {
+    position: absolute;
+    top: 300px; /* Adjust as needed */
+    left: 250px; /* Adjust as needed */
+    transform-origin: top left;
+}
+
 canvas {
     display: block;
     margin: auto;

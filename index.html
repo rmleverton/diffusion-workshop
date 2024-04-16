@@ -1,33 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tile Grid</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name=”apple-mobile-web-app-capable” content=”yes “>
+    <title>Tile Grid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 <body>
+    <h1 id="generation-title">Generation: 0</h1> <!-- Added generation title element -->
     <div id="container"></div>
     <div class="menu-container">
-    <div class="color-menu">
-        <div class="color-option" style="--color: #4C6085;"></div>
-        <div class="color-option" style="--color: #39A0ED;"></div>
-        <div class="color-option" style="--color: #36F1CD;"></div>
-        <div class="color-option" style="--color: #13C4A3;"></div>
-        <div class="color-option" style="--color: #F7B32B;"></div>
-        <div class="color-option" style="--color: #FE5F55;"></div>
-        <div class="color-option" style="--color: #E4572E;"></div>
-        <div class="color-option" style="--color: #161613;"></div>
-   
-        
+        <div class="color-menu">
+            <div class="color-option" style="--color: #4C6085;"></div>
+            <div class="color-option" style="--color: #39A0ED;"></div>
+            <div class="color-option" style="--color: #36F1CD;"></div>
+            <div class="color-option" style="--color: #13C4A3;"></div>
+            <div class="color-option" style="--color: #F7B32B;"></div>
+            <div class="color-option" style="--color: #FE5F55;"></div>
+            <div class="color-option" style="--color: #E4572E;"></div>
+            <div class="color-option" style="--color: #161613;"></div>
+        </div>
+        <div id="changes-left">Changes left</div>
+        <div id="counter">5</div>
+        <button id="reset-button">Next player</button>
     </div>
-    <div id="changes-left">Changes left</div>
-    <div id="counter">5</div>
-
-    <button id="reset-button">Next player</button>
-    </div>
-
-
     <script src="alt.js"></script>
 </body>
 </html>
