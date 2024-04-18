@@ -6,7 +6,7 @@
     let selectedColor = null; // Store the selected color
   
     let generation = 0; // Initialize generation number
-    let counter = 5;
+    let counter = 10;
     const counterElement = document.getElementById('counter');
     const changesLeftElement = document.getElementById('changes-left');
     const resetButton = document.getElementById('reset-button');
@@ -118,7 +118,7 @@
     function resetButtonHandler() {
         container.classList.remove('inactive');
         changesLeftElement.textContent = 'Changes left';
-        counter = 5;
+        counter = 10;
         selectedColor = null; // Reset selectedColor
         colorOptions.forEach(option => option.classList.remove('selected')); // Remove 'selected' class from all color options
         updateCounter();
